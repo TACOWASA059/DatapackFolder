@@ -1,0 +1,7 @@
+{"parent": "minecraft:playerkills/kills","display": {"icon": {"item": "minecraft:player_head","nbt": "{SkullOwner:NAnJi__}"},
+"title": "NAnJi__を倒す",
+"description": "NAnJi__は弱すぎて敗北した",
+"show_toast" : true,
+"announce_to_chat" : true
+},
+"criteria": {"requirement": {"trigger": "minecraft:player_killed_entity","conditions": {"entity": {"type": "minecraft:player","nbt": "{UUID: [I;1772681941,-1697692814,-1799766508,873110772]}"}}}}}

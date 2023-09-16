@@ -1,0 +1,7 @@
+{"parent": "minecraft:playerkills/kills","display": {"icon": {"item": "minecraft:player_head","nbt": "{SkullOwner:norunoru315}"},
+"title": "norunoru315を倒す",
+"description": "norunoru315は弱すぎて敗北した",
+"show_toast" : true,
+"announce_to_chat" : true
+},
+"criteria": {"requirement": {"trigger": "minecraft:player_killed_entity","conditions": {"entity": {"type": "minecraft:player","nbt": "{UUID: [I;53608456,-153597182,-2029729187,1415428495]}"}}}}}

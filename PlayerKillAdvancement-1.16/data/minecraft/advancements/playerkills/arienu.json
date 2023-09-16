@@ -1,0 +1,7 @@
+{"parent": "minecraft:playerkills/kills","display": {"icon": {"item": "minecraft:player_head","nbt": "{SkullOwner:arienu}"},
+"title": "arienuを倒す",
+"description": "arienuは弱すぎて敗北した",
+"show_toast" : true,
+"announce_to_chat" : true
+},
+"criteria": {"requirement": {"trigger": "minecraft:player_killed_entity","conditions": {"entity": {"type": "minecraft:player","nbt": "{UUID: [I;901801583,-1259847066,-1944088971,-1355759751]}"}}}}}

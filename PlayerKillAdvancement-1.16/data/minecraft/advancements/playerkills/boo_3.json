@@ -1,0 +1,7 @@
+{"parent": "minecraft:playerkills/kills","display": {"icon": {"item": "minecraft:player_head","nbt": "{SkullOwner:Boo_3}"},
+"title": "Boo_3を倒す",
+"description": "Boo_3は弱すぎて敗北した",
+"show_toast" : true,
+"announce_to_chat" : true
+},
+"criteria": {"requirement": {"trigger": "minecraft:player_killed_entity","conditions": {"entity": {"type": "minecraft:player","nbt": "{UUID: [I;-646665917,-1936177311,-1764171408,-596786178]}"}}}}}

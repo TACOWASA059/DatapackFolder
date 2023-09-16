@@ -1,0 +1,7 @@
+{"parent": "minecraft:playerkills/kills","display": {"icon": {"item": "minecraft:player_head","nbt": "{SkullOwner:akenn1549}"},
+"title": "akenn1549を倒す",
+"description": "akenn1549は弱すぎて敗北した",
+"show_toast" : true,
+"announce_to_chat" : true
+},
+"criteria": {"requirement": {"trigger": "minecraft:player_killed_entity","conditions": {"entity": {"type": "minecraft:player","nbt": "{UUID: [I;1162006210,-446544529,-1103286735,-624331678]}"}}}}}

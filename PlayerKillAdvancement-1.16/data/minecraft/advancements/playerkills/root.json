@@ -1,0 +1,5 @@
+{"display": {"icon": {"item": "minecraft:book"},
+"title": "討伐リスト",
+"description": "できるだけ色んな人を倒そう",
+"background": "minecraft:textures/block/quartz_block_top.png"},
+"criteria": {"requirement": {"trigger": "minecraft:tick"}}}

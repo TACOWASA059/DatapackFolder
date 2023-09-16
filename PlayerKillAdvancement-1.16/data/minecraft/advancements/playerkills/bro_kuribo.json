@@ -1,0 +1,7 @@
+{"parent": "minecraft:playerkills/kills","display": {"icon": {"item": "minecraft:player_head","nbt": "{SkullOwner:Bro_Kuribo}"},
+"title": "Bro_Kuriboを倒す",
+"description": "Bro_Kuriboは弱すぎて敗北した",
+"show_toast" : true,
+"announce_to_chat" : true
+},
+"criteria": {"requirement": {"trigger": "minecraft:player_killed_entity","conditions": {"entity": {"type": "minecraft:player","nbt": "{UUID: [I;1470348264,1821000692,-1098565673,-2106040366]}"}}}}}

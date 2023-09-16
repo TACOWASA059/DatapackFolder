@@ -1,0 +1,9 @@
+{"parent": "minecraft:biomes/biome_count","display": {"icon": {"item": "minecraft:grass_block"},
+"title": "荒廃したサバンナの高原を発見",
+"description": "shattered_savanna_plateauを発見した",
+"show_toast" : true,
+"announce_to_chat" : true
+},
+"criteria": {"requirement": {"trigger": "minecraft:location","conditions": {"location": {
+"biome": "minecraft:shattered_savanna_plateau"
+}}}}}

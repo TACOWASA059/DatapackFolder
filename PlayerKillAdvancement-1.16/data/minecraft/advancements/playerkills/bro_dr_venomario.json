@@ -1,0 +1,7 @@
+{"parent": "minecraft:playerkills/kills","display": {"icon": {"item": "minecraft:player_head","nbt": "{SkullOwner:Bro_Dr_VENOMario}"},
+"title": "Bro_Dr_VENOMarioを倒す",
+"description": "Bro_Dr_VENOMarioは弱すぎて敗北した",
+"show_toast" : true,
+"announce_to_chat" : true
+},
+"criteria": {"requirement": {"trigger": "minecraft:player_killed_entity","conditions": {"entity": {"type": "minecraft:player","nbt": "{UUID: [I;1918496718,-1367258273,-1291551667,-739720540]}"}}}}}

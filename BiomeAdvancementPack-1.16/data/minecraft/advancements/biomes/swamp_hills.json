@@ -1,0 +1,9 @@
+{"parent": "minecraft:biomes/biome_count","display": {"icon": {"item": "minecraft:grass_block"},
+"title": "沼地の丘陵を発見",
+"description": "swamp_hillsを発見した",
+"show_toast" : true,
+"announce_to_chat" : true
+},
+"criteria": {"requirement": {"trigger": "minecraft:location","conditions": {"location": {
+"biome": "minecraft:swamp_hills"
+}}}}}

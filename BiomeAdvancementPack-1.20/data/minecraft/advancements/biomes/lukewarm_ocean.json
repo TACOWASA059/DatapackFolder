@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:biomes/biome_count",
+  "display": {
+    "icon": {
+      "item": "minecraft:grass_block"
+    },
+    "title": "ぬるい海を発見",
+    "description": "lukewarm_oceanを発見した",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "find_biome": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "minecraft:lukewarm_ocean"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "requirements": [
+    [
+      "find_biome"
+    ]
+  ]
+}

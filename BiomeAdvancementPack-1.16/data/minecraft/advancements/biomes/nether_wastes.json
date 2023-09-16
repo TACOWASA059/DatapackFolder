@@ -1,0 +1,9 @@
+{"parent": "minecraft:biomes/biome_count","display": {"icon": {"item": "minecraft:grass_block"},
+"title": "ネザーの荒地を発見",
+"description": "nether_wastesを発見した",
+"show_toast" : true,
+"announce_to_chat" : true
+},
+"criteria": {"requirement": {"trigger": "minecraft:location","conditions": {"location": {
+"biome": "minecraft:nether_wastes"
+}}}}}

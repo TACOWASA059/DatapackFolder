@@ -1,0 +1,9 @@
+{"parent": "minecraft:biomes/biome_count","display": {"icon": {"item": "minecraft:grass_block"},
+"title": "巨大トウヒのタイガの丘陵を発見",
+"description": "giant_spruce_taiga_hillsを発見した",
+"show_toast" : true,
+"announce_to_chat" : true
+},
+"criteria": {"requirement": {"trigger": "minecraft:location","conditions": {"location": {
+"biome": "minecraft:giant_spruce_taiga_hills"
+}}}}}

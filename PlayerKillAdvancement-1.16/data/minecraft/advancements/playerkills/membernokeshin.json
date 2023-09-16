@@ -1,0 +1,7 @@
+{"parent": "minecraft:playerkills/kills","display": {"icon": {"item": "minecraft:player_head","nbt": "{SkullOwner:MEMBERnoKESHIN}"},
+"title": "MEMBERnoKESHINを倒す",
+"description": "MEMBERnoKESHINは弱すぎて敗北した",
+"show_toast" : true,
+"announce_to_chat" : true
+},
+"criteria": {"requirement": {"trigger": "minecraft:player_killed_entity","conditions": {"entity": {"type": "minecraft:player","nbt": "{UUID: [I;1096325873,-139114576,-1516035303,-2038680797]}"}}}}}

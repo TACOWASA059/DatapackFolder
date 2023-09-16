@@ -1,0 +1,7 @@
+{"parent": "minecraft:playerkills/kills","display": {"icon": {"item": "minecraft:player_head","nbt": "{SkullOwner:DOCJOTAIXXX}"},
+"title": "DOCJOTAIXXXを倒す",
+"description": "DOCJOTAIXXXは弱すぎて敗北した",
+"show_toast" : true,
+"announce_to_chat" : true
+},
+"criteria": {"requirement": {"trigger": "minecraft:player_killed_entity","conditions": {"entity": {"type": "minecraft:player","nbt": "{UUID: [I;-1172779790,-385923808,-1386246965,1785241400]}"}}}}}

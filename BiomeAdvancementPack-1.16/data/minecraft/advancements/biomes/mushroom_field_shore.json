@@ -1,0 +1,9 @@
+{"parent": "minecraft:biomes/biome_count","display": {"icon": {"item": "minecraft:grass_block"},
+"title": "キノコ島の海岸を発見",
+"description": "mushroom_field_shoreを発見した",
+"show_toast" : true,
+"announce_to_chat" : true
+},
+"criteria": {"requirement": {"trigger": "minecraft:location","conditions": {"location": {
+"biome": "minecraft:mushroom_field_shore"
+}}}}}

@@ -1,0 +1,7 @@
+{"parent": "minecraft:playerkills/kills","display": {"icon": {"item": "minecraft:player_head","nbt": "{SkullOwner:yoshi_kyou_sinja}"},
+"title": "yoshi_kyou_sinjaを倒す",
+"description": "yoshi_kyou_sinjaは弱すぎて敗北した",
+"show_toast" : true,
+"announce_to_chat" : true
+},
+"criteria": {"requirement": {"trigger": "minecraft:player_killed_entity","conditions": {"entity": {"type": "minecraft:player","nbt": "{UUID: [I;2011257916,1472086211,-1711137893,-1557452383]}"}}}}}

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:biomes/biome_count",
+  "display": {
+    "icon": {
+      "item": "minecraft:grass_block"
+    },
+    "title": "氷樹を発見",
+    "description": "ice_spikesを発見した",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "find_biome": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "minecraft:ice_spikes"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "requirements": [
+    [
+      "find_biome"
+    ]
+  ]
+}

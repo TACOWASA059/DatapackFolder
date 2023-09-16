@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:biomes/biome_count",
+  "display": {
+    "icon": {
+      "item": "minecraft:grass_block"
+    },
+    "title": "ジャングルを発見",
+    "description": "jungleを発見した",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "find_biome": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "minecraft:jungle"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "requirements": [
+    [
+      "find_biome"
+    ]
+  ]
+}
